@@ -1,9 +1,9 @@
 # json-mock-server
 
-npm install -g json-server
+$ npm install -g json-server
 
-cd json-mock-server
+$ cd json-mock-server
 
-npm install faker
+$ npm install faker
 
-json-server users.js
+$ json-server users.js
