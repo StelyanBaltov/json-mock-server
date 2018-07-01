@@ -1,0 +1,22 @@
+{
+  "name": "json-mock-server",
+  "version": "1.0.0",
+  "description": "$ npm install -g json-server",
+  "main": "users.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StelyanBaltov/json-mock-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StelyanBaltov/json-mock-server/issues"
+  },
+  "homepage": "https://github.com/StelyanBaltov/json-mock-server#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
