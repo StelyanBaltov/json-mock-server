@@ -1,6 +1,6 @@
 var faker = require('faker')
 
-function generateUsers () {
+const generateUsers = () => {
   var users = []
 
   for (var id = 0; id < 10; id++) {
@@ -16,7 +16,7 @@ function generateUsers () {
     })
   }
 
-  return { "users": users }
+  return users;
 }
 
 module.exports = generateUsers;
